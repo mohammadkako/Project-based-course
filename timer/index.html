@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./page-style.css">
+    <title>timer</title>
+</head>
+<body>
+    
+    <div id="container">
+        <div class="start-box">
+            <input type="text" id="input-container" placeholder="زمان مورد نظر به ثانیه">
+            <button id="counting">شروع</button>
+        </div>
+        <div id="error-message"></div>
+        <div class="c100">
+            <span></span>
+                <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                </div>
+        </div>
+        <div class="note">
+            <span class="loading">در حال اجرا...</span>
+            <span class="success">شمارنده با موفقیت به پایان رسید</span>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
